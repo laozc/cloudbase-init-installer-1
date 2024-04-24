@@ -12,7 +12,7 @@ jobs:
     strategy:
       max-parallel: 100
       matrix:
-        cbsinit_repo: ['https://github.com/gab-satchi/cloudbase-init']
+        cbsinit_repo: ['https://github.com/laozc/cloudbase-init']
         cbsinit_branch: ['master']
 
     steps:
